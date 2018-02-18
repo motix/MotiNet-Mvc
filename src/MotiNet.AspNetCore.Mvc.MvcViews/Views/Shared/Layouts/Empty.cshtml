@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html lang="@System.Threading.Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName">
+<head>
+    @await Html.PartialAsync("Layouts/_HeadPartial")
+    @RenderSection("Head", required: false)
+</head>
+<body>
+    @RenderBody()
+    @await Html.PartialAsync("Layouts/_ScriptsPartial")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
