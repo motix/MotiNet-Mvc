@@ -22,7 +22,7 @@ namespace RazorPagesSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddLocalizedMvc()
-                    .AddRazorPagesViews();
+                    .Services.AddRazorPagesViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

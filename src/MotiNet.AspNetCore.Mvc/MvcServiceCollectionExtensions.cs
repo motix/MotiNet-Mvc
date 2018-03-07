@@ -8,20 +8,20 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class MvcServiceCollectionExtensions
     {
-        public static IServiceCollection AddLocalizedMvc(this IServiceCollection services)
+        public static IMvcBuilder AddLocalizedMvc(this IServiceCollection services)
         {
             services.AddLocalization(options => options.ResourcesPath = "Resources")
                     .AddSingleton<IStringLocalizerFactory, AssemblyAwareResourceManagerStringLocalizerFactory>();
 
-            services.AddMvc()
-                    .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
-                    .AddDataAnnotationsLocalization();
+            var builder = services.AddMvc()
+                                  .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                                  .AddDataAnnotationsLocalization();
 
             services.AddSingleton<IValidationAttributeAdapterProvider, LocalizedValidationAttributeAdapterProvider>();
 
             services.AddScoped<MvcHelper>();
 
-            return services;
+            return builder;
         }
     }
 }
