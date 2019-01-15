@@ -35,8 +35,4 @@
     <ProjectReference Include="..\MotiNet.AspNetCore.Mvc\MotiNet.AspNetCore.Mvc.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\Shared\" />
-  </ItemGroup>
-
 </Project>
