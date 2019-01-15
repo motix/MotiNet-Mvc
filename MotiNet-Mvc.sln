@@ -45,9 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotiNet.AspNetCore.Compozr.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotiNet.AspNetCore.Mvc.RazorPagesViews", "src\MotiNet.AspNetCore.Mvc.RazorPagesViews\MotiNet.AspNetCore.Mvc.RazorPagesViews.csproj", "{A6FCB472-0E5C-40D7-B4B1-D0670BEC2C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntouchedRazorPagesAuthentication", "samples\UntouchedRazorPagesAuthentication\UntouchedRazorPagesAuthentication.csproj", "{C618751F-2C80-47CE-BA85-0CA45B34E64C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcSample", "samples\MvcSample\MvcSample.csproj", "{AA013177-3641-4C58-A4C2-F9BD475BA38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcSample", "samples\MvcSample\MvcSample.csproj", "{AA013177-3641-4C58-A4C2-F9BD475BA38D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,10 +105,6 @@ Global
 		{A6FCB472-0E5C-40D7-B4B1-D0670BEC2C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6FCB472-0E5C-40D7-B4B1-D0670BEC2C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6FCB472-0E5C-40D7-B4B1-D0670BEC2C2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C618751F-2C80-47CE-BA85-0CA45B34E64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C618751F-2C80-47CE-BA85-0CA45B34E64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C618751F-2C80-47CE-BA85-0CA45B34E64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C618751F-2C80-47CE-BA85-0CA45B34E64C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA013177-3641-4C58-A4C2-F9BD475BA38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA013177-3641-4C58-A4C2-F9BD475BA38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA013177-3641-4C58-A4C2-F9BD475BA38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -134,7 +128,6 @@ Global
 		{A7EAC0A8-6685-4AA2-B95B-E5B5D12A278A} = {A1ACBF46-0789-4296-8B22-50C1E20ABBE3}
 		{220724BC-9309-4CD2-9F8D-2AE782147948} = {7366100D-DA6B-43B8-B621-7C485050F01C}
 		{A6FCB472-0E5C-40D7-B4B1-D0670BEC2C2B} = {7366100D-DA6B-43B8-B621-7C485050F01C}
-		{C618751F-2C80-47CE-BA85-0CA45B34E64C} = {A1ACBF46-0789-4296-8B22-50C1E20ABBE3}
 		{AA013177-3641-4C58-A4C2-F9BD475BA38D} = {A1ACBF46-0789-4296-8B22-50C1E20ABBE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
