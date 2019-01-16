@@ -31,8 +31,7 @@ exec { & dotnet restore }
 if ($env:APPVEYOR_REPO_TAG -eq $true) {
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc -c Release -o ..\..\artifacts }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.SharedStrings -c Release -o ..\..\artifacts }
-	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesViews -c Release -o ..\..\artifacts }
-	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.MvcViews -c Release -o ..\..\artifacts }
+	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesUI -c Release -o ..\..\artifacts }
 	exec { & dotnet pack .\src\aspnet\MotiNet.AspNetCore.Mvc.DataAnnotations -c Release -o ..\..\..\artifacts }
 } else {
 	$revision = @{ $true = $env:APPVEYOR_BUILD_NUMBER; $false = 1 }[$env:APPVEYOR_BUILD_NUMBER -ne $NULL];
@@ -41,7 +40,6 @@ if ($env:APPVEYOR_REPO_TAG -eq $true) {
 
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc -c Release -o ..\..\artifacts --version-suffix=$suffix }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.SharedStrings -c Release -o ..\..\artifacts --version-suffix=$suffix }
-	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesViews -c Release -o ..\..\artifacts --version-suffix=$suffix }
-	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.MvcViews -c Release -o ..\..\artifacts --version-suffix=$suffix }
+	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesUI -c Release -o ..\..\artifacts --version-suffix=$suffix }
 	exec { & dotnet pack .\src\aspnet\MotiNet.AspNetCore.Mvc.DataAnnotations -c Release -o ..\..\..\artifacts --version-suffix=$suffix }
 }
