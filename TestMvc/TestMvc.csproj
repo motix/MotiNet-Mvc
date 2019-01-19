@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\aspnet\MotiNet.AspNetCore.Mvc.DataAnnotations\MotiNet.AspNetCore.Mvc.DataAnnotations.csproj" />
+    <ProjectReference Include="..\src\aspnet\MotiNet.AspNetCore.Mvc.DataAnnotations\MotiNet.AspNetCore.Mvc.DataAnnotations.csproj" />
   </ItemGroup>
 
 </Project>
