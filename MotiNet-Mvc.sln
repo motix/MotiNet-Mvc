@@ -33,8 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotiNet.AspNetCore.Mvc.Razo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUI", "src\TestUI\TestUI.csproj", "{227379F2-3FE8-4EE7-86D7-C91CA51D33EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMvc", "TestMvc\TestMvc.csproj", "{A760BABF-60B0-4828-A459-4D9C64490492}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,10 +67,6 @@ Global
 		{227379F2-3FE8-4EE7-86D7-C91CA51D33EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{227379F2-3FE8-4EE7-86D7-C91CA51D33EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{227379F2-3FE8-4EE7-86D7-C91CA51D33EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A760BABF-60B0-4828-A459-4D9C64490492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A760BABF-60B0-4828-A459-4D9C64490492}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A760BABF-60B0-4828-A459-4D9C64490492}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A760BABF-60B0-4828-A459-4D9C64490492}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

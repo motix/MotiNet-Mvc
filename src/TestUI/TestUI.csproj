@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\TestMvc\TestMvc.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnet\MotiNet.AspNetCore.Mvc.DataAnnotations\MotiNet.AspNetCore.Mvc.DataAnnotations.csproj" />
   </ItemGroup>
 </Project>
