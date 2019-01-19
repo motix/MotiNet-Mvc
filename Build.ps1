@@ -29,7 +29,6 @@ exec { & dotnet restore }
 # exec { & dotnet test .\test\MotiNet.Core.Tests -c Release }
 
 if ($env:APPVEYOR_REPO_TAG -eq $true) {
-	exec { & dotnet pack .\src\TestUI -c Release -o ..\..\artifacts }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc -c Release -o ..\..\artifacts }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.SharedStrings -c Release -o ..\..\artifacts }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesUI -c Release -o ..\..\artifacts }
@@ -39,7 +38,6 @@ if ($env:APPVEYOR_REPO_TAG -eq $true) {
 	$revision = "{0:D4}" -f [convert]::ToInt32($revision, 10);
 	$suffix = "beta-" + $revision
 
-	exec { & dotnet pack .\src\TestUI -c Release -o ..\..\artifacts --version-suffix=$suffix }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc -c Release -o ..\..\artifacts --version-suffix=$suffix }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.SharedStrings -c Release -o ..\..\artifacts --version-suffix=$suffix }
 	exec { & dotnet pack .\src\MotiNet.AspNetCore.Mvc.RazorPagesUI -c Release -o ..\..\artifacts --version-suffix=$suffix }
