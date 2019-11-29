@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace UntouchedRazorPages
+namespace UntouchedRazorPagesWithAuthentication
 {
     public class Program
     {
