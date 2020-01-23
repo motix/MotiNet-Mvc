@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotiNet.AspNetCore.Mvc.Loca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "samples\RazorPages\RazorPages.csproj", "{E765224C-FA90-42F5-81AD-D10D67E06D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UntouchedRazorPages", "samples\UntouchedRazorPages\UntouchedRazorPages.csproj", "{1D24A9DB-A8E7-4247-BED3-274831C513FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UntouchedRazorPages", "samples\UntouchedRazorPages\UntouchedRazorPages.csproj", "{1D24A9DB-A8E7-4247-BED3-274831C513FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
