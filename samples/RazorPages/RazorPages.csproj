@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MotiNet.AspNetCore.Mvc.Localization\MotiNet.AspNetCore.Mvc.Localization.csproj" />
+    <ProjectReference Include="..\..\src\MotiNet.AspNetCore.Mvc.RazorPagesUI\MotiNet.AspNetCore.Mvc.RazorPagesUI.csproj" />
+    <ProjectReference Include="..\..\src\MotiNet.AspNetCore.Mvc.SharedStrings\MotiNet.AspNetCore.Mvc.SharedStrings.csproj" />
+  </ItemGroup>
+
+</Project>
