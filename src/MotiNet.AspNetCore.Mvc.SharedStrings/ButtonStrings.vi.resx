@@ -117,10 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Navigation" xml:space="preserve">
-    <value>Navigation</value>
+  <data name="Add" xml:space="preserve">
+    <value>Thêm</value>
   </data>
-  <data name="Toggle navigation" xml:space="preserve">
-    <value>Toggle navigation</value>
+  <data name="Cancel" xml:space="preserve">
+    <value>Bỏ Qua</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Đăng Nhập</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Tạo Mới</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Kế Tiếp</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Đồng Ý</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Trước</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Đăng Ký</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Gởi</value>
+  </data>
+  <data name="Sign in" xml:space="preserve">
+    <value>Đăng Nhập</value>
+  </data>
+  <data name="Sign out" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Cập Nhật</value>
   </data>
 </root>

@@ -1,0 +1,9 @@
+﻿'TemplateBinder' -> 'GlobalRouteValuesLinkGeneratorTemplateBinder'
+
+Add
+internal static bool RoutePatternIsRequiredValueAny(object value)
+{
+    return object.ReferenceEquals(RoutePattern.RequiredValueAny, value);
+}
+
+RoutePattern.IsRequiredValueAny -> RoutePatternIsRequiredValueAny

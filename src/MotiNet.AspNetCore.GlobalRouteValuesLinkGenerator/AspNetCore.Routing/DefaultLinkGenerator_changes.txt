@@ -1,0 +1,5 @@
+﻿internal sealed class DefaultLinkGenerator -> public abstract class DefaultLinkGenerator
+
+'TemplateBinder' -> 'GlobalRouteValuesLinkGeneratorTemplateBinder'
+
+'TemplateBinderFactory' -> 'GlobalRouteValuesLinkGeneratorTemplateBinderFactory'

@@ -1,0 +1,3 @@
+﻿'TemplateBinder' -> 'GlobalRouteValuesLinkGeneratorTemplateBinder'
+
+'TemplateBinderFactory' -> 'GlobalRouteValuesLinkGeneratorTemplateBinderFactory'

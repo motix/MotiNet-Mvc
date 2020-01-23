@@ -1,18 +1,18 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <VersionPrefix>1.1.0</VersionPrefix>
     <Authors>Minh Nguyen</Authors>
     <Company>Motix</Company>
-    <Description>MotiNet.AspNetCore.Mvc.RazorPagesUI class library</Description>
+    <Description>MotiNet.AspNetCore.Mvc.Localization class library</Description>
     <Copyright>Motix</Copyright>
     <PackageLicense>https://github.com/motix/MotiNet-Mvc/blob/master/LICENSE</PackageLicense>
     <PackageProjectUrl>https://github.com/motix/MotiNet-Mvc</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MotiNet.AspNetCore.Mvc\MotiNet.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator\MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator.csproj" />
   </ItemGroup>
+
 </Project>

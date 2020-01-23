@@ -10,34 +10,14 @@
 
 [![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.SharedStrings.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.SharedStrings) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.SharedStrings.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.SharedStrings)
 
-### MotiNet.AspNetCore.Mvc.RazorPagesViews
+### MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator
 
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.RazorPagesViews.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.RazorPagesViews) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.RazorPagesViews.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.RazorPagesViews)
+[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.GlobalRouteValuesLinkGenerator)
 
-### MotiNet.AspNetCore.Mvc.MvcViews
+### MotiNet.AspNetCore.Mvc.Localization
 
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.MvcViews.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.MvcViews) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.MvcViews.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.MvcViews)
+[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.Localization.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.Localization) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.Localization.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.Localization)
 
-### MotiNet.AspNetCore.Compozr
+### MotiNet.AspNetCore.Mvc.RazorPagesUI
 
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Compozr.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Compozr) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Compozr.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Compozr)
-
-### MotiNet.AspNetCore.Compozr.SharedStrings
-
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Compozr.SharedStrings.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Compozr.SharedStrings) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Compozr.SharedStrings.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Compozr.SharedStrings)
-
-### MotiNet.AspNetCore.Compozr.RazorPagesViews
-
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Compozr.RazorPagesViews.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Compozr.RazorPagesViews) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Compozr.RazorPagesViews.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Compozr.RazorPagesViews)
-
-### MotiNet.AspNetCore.Compozr.MvcViews
-
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Compozr.MvcViews.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Compozr.MvcViews) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Compozr.MvcViews.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Compozr.MvcViews)
-
-### MotiNet.AspNetCore.Angular
-
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Angular.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Angular) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Angular.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Angular)
-
-### MotiNet.AspNetCore.Mvc.DataAnnotations
-
-[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.DataAnnotations.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.DataAnnotations) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.DataAnnotations.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.DataAnnotations)
+[![MyGet CI](https://img.shields.io/myget/motix-ci/v/MotiNet.AspNetCore.Mvc.RazorPagesUI.svg)](https://www.myget.org/feed/motix-ci/package/nuget/MotiNet.AspNetCore.Mvc.RazorPagesUI) [![NuGet](https://img.shields.io/nuget/v/MotiNet.AspNetCore.Mvc.RazorPagesUI.svg)](https://www.nuget.org/packages/MotiNet.AspNetCore.Mvc.RazorPagesUI)
